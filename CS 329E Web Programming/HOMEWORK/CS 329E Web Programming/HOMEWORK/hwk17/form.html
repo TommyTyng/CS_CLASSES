@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <meta charset="UTF-8">
+    <script type="text/javascript">
+      var xhr;
+  if (window.XMLHttpRequest)
+  {
+    xhr = new XMLHttpRequest();
+  }
+
+  function callServer()
+  {
+    var username = document.getElementById("username").value;
+
+    var url = "/cs329e-mitra/tct537/hwk17/form.php?username=" +escape(username);
+
+    // Open a connection to the server
+    xhr.open("GET", url, true);
+
+    // Setup a function for the server to run when it is done
+    xhr.onreadystatechange = updatePage; 
+   // Send the request
+    xhr.send(null);
+  }
+
+  function updatePage() 
+  {
+     if ((xhr.readyState == 4) && (xhr.status == 200))
+     {
+  var response = xhr.responseText;
+        if (response == "1")
+  {
+          alert("Username is already taken. Try another username");
+          document.getElementById("submit").disabled = true;
+
+  }     if (response == "0")
+  {
+          console.log("Username passed validation.");
+          document.getElementById("submit").disabled = false;
+
+  }
+  }
+}
+</script>
+    </head>
+<body>
+<center>
+<h2>User Registration</h2>
+</center>
+<table width = "75%">
+<form action = "insert.php" method = "post">
+<tr>
+<td> Enter username:</td>
+<td> <input type = "text" name = "username" id="username" size = "30" onchange="callServer();" /></td>
+</tr>
+<tr>
+<td> Enter password: </td>
+<td> <input type = "password" id="password" name = "password" size = "30" /></td>
+</tr>
+<tr>
+<td> &nbsp; </td> <td> &nbsp; </td>
+</tr>
+<tr>
+<td><input type = "submit" id="submit" value = "Submit" /></td>
+<td><input type = "reset" value = "Reset" /></td>
+</tr>
+</form>
+</table>
+</body>
+</html>
