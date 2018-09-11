@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_bg"
+    tools:context="edu.tommytyngutexas.catcells.MainMenuActivity">
+
+    <ImageView
+        android:id="@+id/go_imageView"
+        android:layout_width="198dp"
+        android:layout_height="254dp"
+        android:layout_alignEnd="@+id/go_button"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="54dp"
+        android:contentDescription="@string/catcells"
+        android:src="@drawable/catcells" />
+
+    <Button
+        android:id="@+id/go_button"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="casual"
+        android:text="@string/blow_stuff_up"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/about_button"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="casual"
+        android:text="@string/about"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/catlogo"
+        android:layout_width="366dp"
+        android:layout_height="137dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="108dp"
+        android:src="@drawable/catlogo" />
+
+</RelativeLayout>
