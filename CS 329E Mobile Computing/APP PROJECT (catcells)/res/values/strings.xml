@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Catcells</string>
+    <string name="score_hints">Hints:\n%d</string>
+    <string name="score_time">Time:\n%d</string>
+    <string name="score_found">%1$d/%2$d\n%3$d</string>
+
+
+    <string name="level_endless">ENDLESS</string>
+    <string name="level_kitten">KITTEN</string>
+    <string name="level_lion">LION</string>
+    <string name="find">Find:</string>
+    <string name="game_over">Game Over</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="complete">Level Complete!</string>
+    <string name="about_game">ABOUT GAME</string>
+    <string name="next">Next!\n▶</string>
+    <string name="now_we_go_faster">Now we go faster!</string>
+    <string name="miss_penalty">-5 seconds</string>
+    <string name="time_bonus">Time Bonus: %d</string>
+    <string name="hint_bonus">Hint Bonus: %d</string>
+    <string name="hi_im_catcells">Hi, I\'m CatCells! Will you help me blow all the other poser cats out of the water?  Great!</string>
+    <string name="blow_stuff_up">Blow kittens up!</string>
+    <string name="use_background">Use background image (extra points)</string>
+    <string name="sfx_volume">SFX Volume</string>
+    <string name="catcells">Catcells</string>
+
+
+
+    <integer name="level_kitten">0x1F468</integer>
+    <integer name="level_lion">0x1F475</integer>
+
+    <string name="quit">QUIT</string>
+    <string name="quit_question">QUIT GAME?</string>
+    <string name="no">NO!</string>
+    <string name="yes">YES...</string>
+    <string name="created">Created by Tommy Tyng</string>
+
+
+
+    <string name="about_app">
+        Catcells hissed off the wrong pussycats! The objective of the game is to blow these kittens up before time runs out!
+        The cat to find is in the top right corner. Tap on this cat and move on to the next one to find. When all the cats
+        are sploded, you move on to the next level. But be careful if you tap on the wrong cat you get a time deduction! See how far you can get and how high you can score!
+        Good luck!
+    </string>
+    <string name="about">About Game</string>
+
+</resources>

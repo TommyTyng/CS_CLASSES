@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="meows">
+        <item>@raw/meow1</item>
+        <item>@raw/meow2</item>
+        <item>@raw/meow3</item>
+        <item>@raw/meow4</item>
+        <item>@raw/meow5</item>
+        <item>@raw/meow6</item>
+        <item>@raw/plode_f</item>
+        <item>@raw/plode_squeak1</item>
+    </array>
+
+    <integer-array name="meow_volumes">
+        <item>100</item>
+        <item>100</item>
+        <item>100</item>
+        <item>100</item>
+        <item>100</item>
+        <item>100</item>
+        <item>55</item>
+        <item>85</item>
+    </integer-array>
+
+    <array name="misses">
+        <item>@raw/miss1</item>
+        <item>@raw/miss2</item>
+        <item>@raw/miss3</item>
+        <item>@raw/miss4</item>
+    </array>
+
+</resources>
