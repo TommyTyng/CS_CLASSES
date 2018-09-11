@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name = "author" content = "Tommy Tyng" />
+        <meta name = "description" content = "Mortage Calculator." />
+        <title>Registr Form Validation</title>
+        <link rel="stylesheet" title = "basic style" type = "text/css" href="HWK7.css" media = "all" />
+        <script type="text/javascript" src="./validate.js"></script>
+    </head>
+    <body>
+        <form>
+            <input type="submit" formaction="../index.html" value="<-- Back to Index" class="button" id="return"/>
+        </form>
+        <form name="textForm" id = "textForm">
+            <h2>Register:</h2>
+            <table border = "0">
+                <tr>
+                    <td> Name: </td>
+                    <td> <input type = "text" name = "userName" /></td>
+                </tr>
+                <tr>
+                    <td> Password: </td>
+                    <td> <input type = "password" name = "password" /></td>
+                </tr>
+                <tr>
+                    <td> Repeat Password: </td>
+                    <td> <input type = "password" name = "repeatPassword" /></td>
+                </tr>
+                <tr>
+                    <td> <input type = "button" value = "Enter" onclick="validater();" /></td>
+                    <td> <input type = "reset" value = "Clear" /></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

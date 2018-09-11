@@ -1,0 +1,71 @@
+/*
+  File: HWK6.css
+
+  Author: TT (tct537) 
+
+  Date created: 9 July 2018
+
+  Date modified: 9 July 2018
+
+*/
+
+body{
+    font-family: 'Saira Condensed', sans-serif;
+    max-width: 650px;
+    margin: auto;
+}
+
+#return{
+    float: left;
+    width: 170px;
+}
+
+h1{
+    float: left;
+    font-family: 'Roboto Mono', monospace;
+    color: lawngreen;
+    background-color: silver;
+    border-radius: 7px;
+    max-width: 400px;
+    padding: 5px;
+}
+
+#calc{
+    text-align: right;
+    background-color: black;
+    color: lawngreen;
+    border-radius: 7px;
+    max-width: 630px;
+    padding: 10px;
+}
+
+input[type=text] {
+    font-family: inherit;
+    font-size: 14px;
+    width: 350px;
+    padding: 10px;
+    margin: 6px 0;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    width: 170px;
+    background-color: red;
+    color: white;
+    font-family: inherit;
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 1px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+   background-color: #07d;
+}

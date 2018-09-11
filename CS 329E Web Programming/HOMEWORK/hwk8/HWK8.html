@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name = "author" content = "Tommy Tyng" />
+        <meta name = "description" content = "Random Image." />
+        <title>Random Image</title>
+        <link rel="stylesheet" title = "basic style" type = "text/css" href="HWK8.css" media = "all" />
+    </head>
+     <body>
+        <form>
+            <input type="submit" formaction="../index.html" value="<-- Back to Index" class="button" id="return"/>
+        </form>
+        <h1>Galaxies</h1>
+        <div class='float'>
+            <script>
+                // Possible Images
+                var images = [ "./InteractingGalaxies.jpg", "./GalaxyCluster.jpg", "./M51.jpg", "./M104.jpg", "./NGC1300.jpg", "./NGC6217.jpg"];
+                var caption = ["InteractingGalaxies", "GalaxyCluster", "M51", "M104", "NGC1300", "NGC6217"];
+                // Display a randomly chosen image
+                var randomNum = Math.floor(Math.random() * images.length);
+                document.writeln("<img src="+images[randomNum]+" alt="+caption[randomNum]+" width='640' height='480'><br>"+caption[randomNum]);
+            </script>
+        </div>
+    </body>
+</html>
